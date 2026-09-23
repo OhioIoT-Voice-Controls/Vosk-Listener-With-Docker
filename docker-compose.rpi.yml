@@ -1,0 +1,12 @@
+
+
+services:
+
+  listener:
+    image: lvincek/listener:latest
+    container_name: listener
+    restart: always
+    devices:
+      - /dev/snd:/dev/snd
+    group_add:
+      - audio

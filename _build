@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+docker build --platform linux/arm64 -t lvincek/listener:latest .
+docker push lvincek/listener:latest
