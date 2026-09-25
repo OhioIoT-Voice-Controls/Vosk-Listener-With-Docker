@@ -1,5 +1,5 @@
 # Vosk Listener (with Docker)<a href="https://www.ohioiot.com"><img src="https://www.ohioiot.com/logo_150.jpg" width="40" ></a>
-#### [(back to Organization Page)](https://github.com/OhioIoT-MCP)
+#### [(Back to Organization Page)](https://github.com/OhioIoT-Voice-Controls)
 
 This code was generated in the linked YouTube video about making a speech-to-text listener on a Raspberry Pi with a USB mic.  See more at:
 
