@@ -5,7 +5,7 @@ This code was generated in the linked YouTube video about making a speech-to-tex
 
 https://youtu.be/MfQx2uX6iCU
 
-
+For the same version of this code, but without the Docker files, check out out [Vosk Listener](https://github.com/OhioIoT-Voice-Controls/Vosk-Listener).
 
 ## About
 <a href="https://www.ohioiot.com"><img src="https://www.ohioiot.com/logo_150.jpg" width="40" ></a>
