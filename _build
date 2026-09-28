@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-docker build --platform linux/arm64 -t lvincek/listener:latest .
-docker push lvincek/listener:latest
+docker build --platform linux/arm64 -t {your Docker Hub username}/listener:latest .
+docker push {your Docker Hub username}/listener:latest
