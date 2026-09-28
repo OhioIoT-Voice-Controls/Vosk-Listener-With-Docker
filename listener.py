@@ -40,6 +40,7 @@ with sd.RawInputStream(samplerate=mic_rate,
                        blocksize=mic_rate // 2,
                        dtype="int16", channels=1,
                        callback=on_audio):
+    print("listening...")
     while True:
         chunk = audio.get()
         if not recognizer.AcceptWaveform(chunk):
