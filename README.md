@@ -11,8 +11,13 @@ It turns out that if you use the following line instead, the library will downlo
 ```
 model = Model(model_name="vosk-model-small-en-us-0.15")
 ```
+Either make the change above in your code before you run, or do something like:
+```
+wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
+unzip vosk-model-small-en-us-0.15.zip
+```
 
-Installation steps w/automatic downlaod (works on Git Bash on Windows):
+Installation Steps (works on Git Bash on Windows):
 ```
 git clone https://github.com/OhioIoT-Voice-Controls/Vosk-Listener.git vosk-listener
 cd vosk-listener
