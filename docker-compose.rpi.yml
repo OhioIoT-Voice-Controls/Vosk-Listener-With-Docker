@@ -3,7 +3,7 @@
 services:
 
   listener:
-    image: lvincek/listener:latest
+    image: {your Docker Hub username}/listener:latest
     container_name: listener
     restart: always
     devices:
