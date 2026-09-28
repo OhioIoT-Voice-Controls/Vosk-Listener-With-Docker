@@ -31,7 +31,7 @@ def on_audio(data, frames, time, status):
 
 # --- speech recognition ---------------------------
 SetLogLevel(-1)
-model = Model(model="vosk-model-small-en-us-0.15")
+model = Model(model_name="vosk-model-small-en-us-0.15")
 grammar = json.dumps(COMMANDS + ["[unk]"])
 recognizer = KaldiRecognizer(model, mic_rate, grammar)
 
