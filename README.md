@@ -11,13 +11,9 @@ It turns out that if you use the following line instead, the library will downlo
 ```
 model = Model(model_name="vosk-model-small-en-us-0.15")
 ```
-Either make the change above in your code before you run, or do something like:
-```
-wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
-unzip vosk-model-small-en-us-0.15.zip
-```
 
-Installation Steps (works on Git Bash on Windows):
+## Installation
+These are the resulting installation steps.  It is confirmed to work on Git Bash on Windows laptop:
 ```
 git clone https://github.com/OhioIoT-Voice-Controls/Vosk-Listener.git vosk-listener
 cd vosk-listener
@@ -26,6 +22,8 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ./+run
 ```
+
+When you see `listening...`, it's on.   Say "lights on" and "lights off", and you will see in the logs that the system picked up your voice.
 
 For the same version of this code, but without the Docker files, check out out [Vosk Listener](https://github.com/OhioIoT-Voice-Controls/Vosk-Listener).
 
